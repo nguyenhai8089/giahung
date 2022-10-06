@@ -2,6 +2,7 @@
   "name": "lab_04_1",
   "version": "0.1.0",
   "private": true,
+  "homepage":"https://nguyenhai8089.github.io/giahung",
   "dependencies": {
     "bootstrap": "^4.6.1",
     "bootstrap-social": "^4.6.1",
@@ -11,6 +12,7 @@
     "font-awesome": "^4.7.0",
     "format-decimal": "^0.1.0",
     "prop-types": "^15.8.1",
+    "gh-pages": "^4.0.0", 
     "react-popper": "^2.2.5",
     "react-redux": "^7.2.6",
     "react-redux-form": "^1.16.14",
@@ -27,7 +29,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
